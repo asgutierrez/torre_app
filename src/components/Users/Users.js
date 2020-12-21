@@ -3,11 +3,13 @@ import { useEffect, useState } from 'react';
 import DownArrow from '../../assets/Icons/DownArrow';
 import { variants } from '../../helpers/Constants';
 import { fetchUsername } from '../../helpers/Requests';
+import Accordion from '../Accordion/Accordion';
+import Card from '../Card/Card';
 
 export default function Users() {
   const [delay, setDelay] = useState(1);
   const [render, setRender] = useState(false);
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(null);
 
   useEffect(() => {
     const loaded = localStorage.getItem('loaded_users');
@@ -63,18 +65,16 @@ export default function Users() {
           <input
             type='text'
             className='form-control'
-            onChange={e => {
-              setSearch(e.target.value);
+            onChange={async e => {
+              try {
+                setSearch(await fetchUsername(e.target.value));
+              } catch (error) {
+                setSearch(null);
+              }
             }}
           />
-          <button
-            onClick={() => {
-              fetchUsername(search);
-            }}
-          >
-            Buscar
-          </button>
         </motion.div>
+        {search !== null ? <Card info={search} /> : null}
       </div>
     )
   );
