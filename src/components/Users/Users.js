@@ -2,10 +2,12 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import DownArrow from '../../assets/Icons/DownArrow';
 import { variants } from '../../helpers/Constants';
+import { fetchUsername } from '../../helpers/Requests';
 
 export default function Users() {
   const [delay, setDelay] = useState(1);
   const [render, setRender] = useState(false);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     const loaded = localStorage.getItem('loaded_users');
@@ -58,7 +60,20 @@ export default function Users() {
           transition={{ delay: delay * 3, duration: 2 }}
           className='input-group mb-3 mt-4'
         >
-          <input type='text' className='form-control' />
+          <input
+            type='text'
+            className='form-control'
+            onChange={e => {
+              setSearch(e.target.value);
+            }}
+          />
+          <button
+            onClick={() => {
+              fetchUsername(search);
+            }}
+          >
+            Buscar
+          </button>
         </motion.div>
       </div>
     )
