@@ -8,17 +8,19 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route path='/users'>
-          <Users />
-        </Route>
-        <Route path='/gigs'>
-          <Gigs />
-        </Route>
-      </Switch>
+      <div className='container'>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/users'>
+            <Users />
+          </Route>
+          <Route path='/gigs'>
+            <Gigs />
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
