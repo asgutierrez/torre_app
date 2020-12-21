@@ -9,7 +9,7 @@ export default function Card(data) {
     data && (
       <div className='container'>
         <div className='row align-items-center'>
-          <div className='col-4'>
+          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
             <div className='profile-card-2'>
               <img
                 src={
@@ -39,7 +39,7 @@ export default function Card(data) {
               </div>
             </div>
           </div>
-          <div className='col-8'>
+          <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
             <Accordion education={education} jobs={jobs} projects={projects} />
           </div>
         </div>

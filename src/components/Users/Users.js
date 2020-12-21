@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import DownArrow from '../../assets/Icons/DownArrow';
 import { variants } from '../../helpers/Constants';
 import { fetchUsername } from '../../helpers/Requests';
-import Accordion from '../Accordion/Accordion';
 import Card from '../Card/Card';
 
 export default function Users() {

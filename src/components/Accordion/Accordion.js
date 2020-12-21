@@ -1,4 +1,5 @@
 import './Accordion.css';
+
 export default function Accordion({ education, jobs, projects }) {
   return (
     <>
