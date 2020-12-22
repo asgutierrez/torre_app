@@ -1,0 +1,438 @@
+{
+  "attachments": [
+    {
+      "resource": "cover",
+      "address": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1608125018/origin/opportunities/JustAnswer_wlm2r8.jpg",
+      "path": "v1608125018/origin/opportunities/JustAnswer_wlm2r8.jpg",
+      "caption": ""
+    }
+  ],
+  "boardVersion": 1,
+  "prefilledStatus": {
+    "status": "ignored"
+  },
+  "locale": "en",
+  "objective": "Expert Operations Program Manager",
+  "stats": {
+    "finishedApplications": 0
+  },
+  "review": "approved",
+  "draft": null,
+  "members": [
+    {
+      "id": "2wzn6mnw",
+      "person": {
+        "id": "8W3gXZlW",
+        "username": "eb88bd03-43cf-47ec-9399-f847f0ac8ab2",
+        "name": "Andy Kurtzig",
+        "hasEmail": false,
+        "professionalHeadline": "CEO",
+        "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Andy+Kurtzig.jfif",
+        "hasBio": true,
+        "bioCompletion": 0,
+        "weight": 0,
+        "verified": false
+      },
+      "manager": false,
+      "poster": false,
+      "member": true,
+      "status": "pending",
+      "visible": true,
+      "screeningQuestionsTipClosed": false
+    },
+    {
+      "id": "awKxqJ5d",
+      "person": {
+        "id": "6WZeXlmr",
+        "username": "Manuela.Vargas",
+        "name": "Manuela vargas Jaramillo",
+        "hasEmail": false,
+        "professionalHeadline": "Independent Recruiter",
+        "picture": "https://starrgate.s3.amazonaws.com:443/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv.jpg",
+        "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv/5850e9ff85991f0ce2fd2b34c241bdb0.jpg",
+        "hasBio": true,
+        "bioCompletion": 0.2593,
+        "weight": 0,
+        "verified": true,
+        "subjectId": 220890
+      },
+      "manager": true,
+      "poster": true,
+      "member": false,
+      "status": "accepted",
+      "visible": false,
+      "screeningQuestionsTipClosed": false
+    },
+    {
+      "id": "0wxn7BNr",
+      "person": {
+        "id": "lr47E27d",
+        "username": "pabetancourtr",
+        "name": "Paula Betancourt",
+        "hasEmail": false,
+        "professionalHeadline": "Civil Engineer",
+        "picture": "https://starrgate.s3.amazonaws.com:443/users/0d3218d5e702a100b15e7c170b3eec95d872e94b/profile_3GM7JiF.jpg",
+        "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/0d3218d5e702a100b15e7c170b3eec95d872e94b/profile_3GM7JiF/bf53486a4e005ddd95de63e7b3cfc6f8.jpg",
+        "hasBio": true,
+        "bioCompletion": 0.2963,
+        "weight": 0,
+        "verified": true,
+        "subjectId": 134879
+      },
+      "manager": true,
+      "poster": false,
+      "member": false,
+      "status": "accepted",
+      "visible": false,
+      "screeningQuestionsTipClosed": true
+    }
+  ],
+  "details": [
+    {
+      "code": "reason",
+      "content": "We are looking for an experienced Program Manager to join our growing team. "
+    },
+    {
+      "code": "responsibilities",
+      "content": "â€¢ Organize programs and activities in accordance with the mission and goals of the organization.\nâ€¢ Develop new programs to support the strategic direction of the organization.\nâ€¢ Develop an operating plan for the program and oversee the progress of the operation.\nâ€¢ Develop an evaluation method to assess program strengths and identify areas for improvement.\nâ€¢  Formulate, organize and monitor inter-connected projects\nâ€¢ Coordinate cross-project activities\nâ€¢  Develop and control deadlines, budgets, and activities\nâ€¢ Implement and manage changes and interventions to ensure project goals are achieved.\nâ€¢ Analyze program risks.\nâ€¢ Meet and keep stakeholders informed on project issues and decisions on services.\nâ€¢ Produce accurate and timely reporting of program status throughout its life cycle.\nâ€¢ Assess program performance and aim to maximize ROI."
+    },
+    {
+      "code": "requirements",
+      "content": "â€¢ Proven stakeholder management skills\nâ€¢ Thorough understanding of project/program management techniques and methods.\nâ€¢ A strong attention to strategy, implementation, and delegation\nâ€¢ Outstanding leadership and organizational skills\nâ€¢ Excellent problem-solving ability\nâ€¢ Competency in Microsoft applications including Word, Excel, and Outlook.\n\nâ€¢ Preferred Qualifications:\nâ€¢ Ability to consult, influence, and collaborate with a broad range of stakeholders\nâ€¢  Consultative qualities and interpersonal skills with the ability to communicate across all levels of the organization\nâ€¢ Self-starter who can operate effectively in a fast-paced and highly team-oriented environment with the ability to navigate ambiguity independently\nâ€¢ Strong attention to detail and the ability to prioritize competing demands\nâ€¢ Excellent written and verbal communication skills\nâ€¢ Strong problem-solving, data analytics, and reporting skills."
+    },
+    {
+      "code": "challenges",
+      "content": "â€¢  In this role, you will be a critical part of our Expert Operations team, responsible for organizing programs and activities for our organization."
+    },
+    {
+      "code": "career-path",
+      "content": "â€¢  BA/BS degree or equivalent experience\nâ€¢ 4 + years of proven experience in program, project, or team management in a face-paced environment"
+    },
+    {
+      "code": "organizations",
+      "content": "â€¢ JustAnswer is the best way to talk to doctors, lawyers, vets, mechanics and more in minutesâ€”24/7. We connect customers with verified and vetted Experts to provide reliable answers at any hour and on any budget, democratizing professional services. Our mission is simple: we help people.â€¯ \nâ€¢ Since 2003, JustAnswer has helped 10 million customers across 196 countries. JustAnswer is based in the Presidio and backed by Charles Schwab, Crosslink Capital and Glynn Capital Management. "
+    },
+    {
+      "code": "team-culture",
+      "content": "â€¢ Our hiring criteria: Smart. Fun. Get things done. We love what we do and celebrate our success together with regular happy hours, team offsites and amazing holiday parties (think renting out an island, taking over an arcade and cruising around the Bay on a chartered yacht). Perks include catered lunches on Tuesdays and Thursdays, medical/dental/vision, 401K with matching and more. Best of all, you get to work at a hot company thatâ€™s (drum roll, please) profitable!â€¯ "
+    }
+  ],
+  "id": "Yd6v2jdp",
+  "place": {
+    "remote": true,
+    "anywhere": true,
+    "timezone": true,
+    "location": []
+  },
+  "deadline": "2021-01-16T04:30:00Z",
+  "slug": "justanswer-expert-operations-program-manager",
+  "serpTags": {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Expert Operations Program Manager",
+    "description": "&lt;p&gt;We are looking for an experienced Program Manager to join our growing team.&lt;/p&gt;&lt;p&gt; Organize programs and activities in accordance with the mission and goals of the organization.&lt;br/&gt; Develop new programs to support the strategic direction of the organization.&lt;br/&gt; Develop an operating plan for the program and oversee the progress of the operation.&lt;br/&gt; Develop an evaluation method to assess program strengths and identify areas for improvement.&lt;br/&gt;  Formulate, organize and monitor inter-connected projects&lt;br/&gt; Coordinate cross-project activities&lt;br/&gt;  Develop and control deadlines, budgets, and activities&lt;br/&gt; Implement and manage changes and interventions to ensure project goals are achieved.&lt;br/&gt; Analyze program risks.&lt;br/&gt; Meet and keep stakeholders informed on project issues and decisions on services.&lt;br/&gt; Produce accurate and timely reporting of program status throughout its life cycle.&lt;br/&gt; Assess program performance and aim to maximize ROI.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Remote - Anywhere&lt;/p&gt;&lt;p&gt;&lt;b&gt;Skills required for this job:&lt;/b&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;Program manager&lt;/li&gt;&lt;li&gt;Strategy&lt;/li&gt;&lt;li&gt;Leadership&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "JustAnswer",
+      "value": "Yd6v2jdp"
+    },
+    "datePosted": "2020-12-16T13:50:55Z",
+    "employmentType": [
+      "FULL_TIME"
+    ],
+    "validThrough": "2021-01-16T04:30:00Z",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "JustAnswer",
+      "logo": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600927140/origin/bio/organizations/JustAnswer_maaxoo.png"
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": [
+      {
+        "@type": "Country",
+        "name": "United States"
+      },
+      {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      {
+        "@type": "Country",
+        "name": "Argentina"
+      },
+      {
+        "@type": "Country",
+        "name": "Armenia"
+      },
+      {
+        "@type": "Country",
+        "name": "Australia"
+      },
+      {
+        "@type": "Country",
+        "name": "Austria"
+      },
+      {
+        "@type": "Country",
+        "name": "Belgium"
+      },
+      {
+        "@type": "Country",
+        "name": "Bermuda"
+      },
+      {
+        "@type": "Country",
+        "name": "Bolivia"
+      },
+      {
+        "@type": "Country",
+        "name": "Brazil"
+      },
+      {
+        "@type": "Country",
+        "name": "Bulgaria"
+      },
+      {
+        "@type": "Country",
+        "name": "Canada"
+      },
+      {
+        "@type": "Country",
+        "name": "Chile"
+      },
+      {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      {
+        "@type": "Country",
+        "name": "Costa Rica"
+      },
+      {
+        "@type": "Country",
+        "name": "Croatia"
+      },
+      {
+        "@type": "Country",
+        "name": "Denmark"
+      },
+      {
+        "@type": "Country",
+        "name": "Dominican Republic"
+      },
+      {
+        "@type": "Country",
+        "name": "Ecuador"
+      },
+      {
+        "@type": "Country",
+        "name": "Egypt"
+      },
+      {
+        "@type": "Country",
+        "name": "El Salvador"
+      },
+      {
+        "@type": "Country",
+        "name": "Estonia"
+      },
+      {
+        "@type": "Country",
+        "name": "Finland"
+      },
+      {
+        "@type": "Country",
+        "name": "France"
+      },
+      {
+        "@type": "Country",
+        "name": "Georgia"
+      },
+      {
+        "@type": "Country",
+        "name": "Germany"
+      },
+      {
+        "@type": "Country",
+        "name": "Greece"
+      },
+      {
+        "@type": "Country",
+        "name": "Guatemala"
+      },
+      {
+        "@type": "Country",
+        "name": "Honduras"
+      },
+      {
+        "@type": "Country",
+        "name": "Iceland"
+      },
+      {
+        "@type": "Country",
+        "name": "India"
+      },
+      {
+        "@type": "Country",
+        "name": "Ireland"
+      },
+      {
+        "@type": "Country",
+        "name": "Israel"
+      },
+      {
+        "@type": "Country",
+        "name": "Italy"
+      },
+      {
+        "@type": "Country",
+        "name": "Luxembourg"
+      },
+      {
+        "@type": "Country",
+        "name": "Mexico"
+      },
+      {
+        "@type": "Country",
+        "name": "Netherlands"
+      },
+      {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
+      {
+        "@type": "Country",
+        "name": "Nicaragua"
+      },
+      {
+        "@type": "Country",
+        "name": "Panama"
+      },
+      {
+        "@type": "Country",
+        "name": "Paraguay"
+      },
+      {
+        "@type": "Country",
+        "name": "Peru"
+      },
+      {
+        "@type": "Country",
+        "name": "Puerto Rico"
+      },
+      {
+        "@type": "Country",
+        "name": "Serbia"
+      },
+      {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      {
+        "@type": "Country",
+        "name": "Spain"
+      },
+      {
+        "@type": "Country",
+        "name": "Switzerland"
+      },
+      {
+        "@type": "Country",
+        "name": "Uruguay"
+      },
+      {
+        "@type": "Country",
+        "name": "Venezuela"
+      }
+    ],
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": {
+        "@type": "QuantitativeValue",
+        "minValue": 110000,
+        "maxValue": 130000,
+        "unitText": "YEAR"
+      }
+    }
+  },
+  "owner": {
+    "id": "6WZeXlmr",
+    "username": "Manuela.Vargas",
+    "name": "Manuela vargas Jaramillo",
+    "hasEmail": false,
+    "professionalHeadline": "Independent Recruiter",
+    "picture": "https://starrgate.s3.amazonaws.com:443/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv.jpg",
+    "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv/5850e9ff85991f0ce2fd2b34c241bdb0.jpg",
+    "hasBio": true,
+    "bioCompletion": 0.2593,
+    "weight": 0,
+    "verified": true,
+    "subjectId": 220890
+  },
+  "completion": 0.8125,
+  "agreement": {
+    "type": "employment-contract"
+  },
+  "languages": [
+    {
+      "language": {
+        "code": "en",
+        "name": "English"
+      },
+      "fluency": "fully-fluent"
+    }
+  ],
+  "created": "2020-12-16T13:50:55Z",
+  "crawled": true,
+  "opportunity": "employee",
+  "active": true,
+  "commitment": {
+    "code": "full-time",
+    "hours": 0
+  },
+  "stableOn": "2020-12-16T14:50:55Z",
+  "timezones": [
+    "GMT-12:00",
+    "GMT+14:00"
+  ],
+  "strengths": [
+    {
+      "id": "arQz9X6W",
+      "code": 1296780,
+      "name": "Program manager",
+      "experience": "3-plus-years"
+    },
+    {
+      "id": "VWM6Doyw",
+      "code": 18054,
+      "name": "Strategy",
+      "experience": "3-plus-years"
+    },
+    {
+      "id": "Yd6JN11d",
+      "code": 45396,
+      "name": "Leadership",
+      "experience": "3-plus-years"
+    }
+  ],
+  "organizations": [
+    {
+      "id": 582259,
+      "name": "JustAnswer",
+      "size": 50,
+      "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600927140/origin/bio/organizations/JustAnswer_maaxoo.png"
+    }
+  ],
+  "compensation": {
+    "code": "range",
+    "currency": "USD$",
+    "estimate": true,
+    "minAmount": 110000,
+    "maxAmount": 130000,
+    "periodicity": "yearly",
+    "visible": true
+  },
+  "openGraph": "https://hcti.io/v1/image/c8b0cf16-6863-45fb-a878-8681951cbeef",
+  "status": "open"
+}

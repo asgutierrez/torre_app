@@ -40,7 +40,10 @@ export default function Accordion({ education, jobs, projects }) {
           education.map((item, key) => {
             return (
               <p key={key}>
-                {item.name} - {item.organizations[0].name},{' '}
+                {item.name}
+                {item.organizations.length > 0
+                  ? ' - ' + item.organizations[0].name
+                  : null}
                 {item.organizations.length > 1 ? 'and others.' : null}
                 <br />
               </p>
@@ -73,9 +76,13 @@ export default function Accordion({ education, jobs, projects }) {
         </summary>
         {jobs.length > 0 ? (
           jobs.map((item, key) => {
+            console.log(item);
             return (
               <p key={key}>
-                {item.name} - {item.organizations[0].name},{' '}
+                {item.name}
+                {item.organizations.length > 0
+                  ? ' - ' + item.organizations[0].name
+                  : null}
                 {item.organizations.length > 1 ? 'and others.' : null}
                 <br />
               </p>
@@ -108,9 +115,13 @@ export default function Accordion({ education, jobs, projects }) {
         </summary>
         {projects.length > 0 ? (
           projects.map((item, key) => {
+            console.log(item);
             return (
               <p key={key}>
-                {item.name} - {item.organizations[0].name},{' '}
+                {item.name}
+                {item.organizations.length > 0
+                  ? ' - ' + item.organizations[0].name
+                  : null}
                 {item.organizations.length > 1 ? 'and others.' : null}
                 <br />
               </p>

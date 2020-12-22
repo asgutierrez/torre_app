@@ -98,6 +98,7 @@ export default function Users() {
           className='input-group mb-3 mt-4'
         >
           <input
+            placeholder='Insert username here'
             autoComplete='off'
             autoCorrect='off'
             autoCapitalize='off'
