@@ -1,33 +1,5 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-input,
-p,
-a {
-  font-family: 'Open Sans';
-  margin: 0px;
-}
-
-a,
-a:hover,
-a:focus {
-  color: inherit;
-}
-
-body {
-  background-color: #f1f2f3;
-}
-
-.container-fluid,
-.container {
-  max-width: 1200px;
-}
 
 .card-container {
   padding: 100px 0px;
@@ -81,6 +53,7 @@ body {
 
 .profile-card-2 .profile-icons .fa {
   margin: 5px;
+  color: white;
 }
 
 .profile-card-2:hover img {
