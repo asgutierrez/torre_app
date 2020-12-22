@@ -23,6 +23,23 @@ export default function Users() {
   const [render, setRender] = useState(false);
   const [search, setSearch] = useState(null);
   const [change, setChange] = useState(false);
+  const [value, setValue] = useState('');
+
+  const handleOnChange = event => {
+    setValue(event.target.value);
+  };
+
+  useEffect(() => {
+    const timeoutId = setTimeout(async () => {
+      try {
+        setSearch(await fetchUsername(value));
+        setChange(true);
+      } catch (error) {
+        setSearch(null);
+      }
+    }, 1000);
+    return () => clearTimeout(timeoutId);
+  }, [value]);
 
   useEffect(() => {
     const loaded = localStorage.getItem('loaded_users');
@@ -87,13 +104,8 @@ export default function Users() {
             spellCheck='false'
             type='text'
             className={`form-control ${change ? 'mt-5' : null}`}
-            onChange={async e => {
-              try {
-                setSearch(await fetchUsername(e.target.value));
-                setChange(true);
-              } catch (error) {
-                setSearch(null);
-              }
+            onChange={e => {
+              handleOnChange(e);
             }}
           />
         </motion.div>
