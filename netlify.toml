@@ -1,0 +1,4 @@
+[build]
+  command = "yarn build && cd functions/handler && yarn"
+  functions = "functions"
+  publish = "dist"
