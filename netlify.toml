@@ -1,4 +1,7 @@
 [build]
-  command = "yarn build && cd functions/handler && yarn"
+  command = "yarn build && cd functions/auth-fetch && yarn"
   functions = "functions"
-  publish = "build"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
