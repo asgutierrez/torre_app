@@ -1,5 +1,4 @@
 import { Radar } from 'react-chartjs-2';
-import json from '../../helpers/mock.json';
 import { motion } from 'framer-motion';
 import { getUsefulInfo } from '../../helpers/Constants';
 
