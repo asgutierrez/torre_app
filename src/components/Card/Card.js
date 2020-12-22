@@ -1,5 +1,5 @@
 import './Card.css';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import Accordion from '../Accordion/Accordion';
 
 export default function Card(data) {
@@ -26,17 +26,54 @@ export default function Card(data) {
                   : 'Unknown'}
               </div>
               <div className='profile-username'>@{person.publicId}</div>
-              <div className='profile-icons'>
-                <a className='mr-5' href='#'>
-                  <FaFacebookF className='fa' />
-                </a>
-                <a className='mr-5' href='#'>
-                  <FaTwitter className='fa' />
-                </a>
-                <a className='mr-5' href='#'>
-                  <FaLinkedinIn className='fa' />
-                </a>
-              </div>
+
+              {person.links.length > 0 ? (
+                <div className='profile-icons'>
+                  {person.links.find(element => element.name === 'github') !==
+                  undefined ? (
+                    <a
+                      rel='noreferrer'
+                      target='_blank'
+                      className='mr-5'
+                      href={
+                        person.links.find(element => element.name === 'github')
+                          .address
+                      }
+                    >
+                      <FaGithub className='fa' />
+                    </a>
+                  ) : null}
+                  {person.links.find(element => element.name === 'twitter') !==
+                  undefined ? (
+                    <a
+                      rel='noreferrer'
+                      target='_blank'
+                      className='mr-5'
+                      href={
+                        person.links.find(element => element.name === 'twitter')
+                          .address
+                      }
+                    >
+                      <FaTwitter className='fa' />
+                    </a>
+                  ) : null}
+                  {person.links.find(element => element.name === 'linkedin') !==
+                  undefined ? (
+                    <a
+                      rel='noreferrer'
+                      target='_blank'
+                      className='mr-5'
+                      href={
+                        person.links.find(
+                          element => element.name === 'linkedin'
+                        ).address
+                      }
+                    >
+                      <FaLinkedinIn className='fa' />
+                    </a>
+                  ) : null}
+                </div>
+              ) : null}
             </div>
           </div>
           <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
