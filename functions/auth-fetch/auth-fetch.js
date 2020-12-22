@@ -14,16 +14,15 @@ const handler = async function (event, context) {
   }
   const { identity, user } = context.clientContext;
   try {
-    const response = await fetch('https://api.chucknorris.io/jokes/random');
+    const response = await fetch('https://torre.bio/api/bios/samgomjim18');
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
       return { statusCode: response.status, body: response.statusText };
     }
     const data = await response.json();
-    console.log(JSON.stringify({ identity, user, msg: data.value }));
     return {
       statusCode: 200,
-      body: JSON.stringify({ identity, user, msg: data.value }),
+      body: JSON.stringify({ identity, user, msg: data }),
     };
   } catch (error) {
     // output to netlify function log

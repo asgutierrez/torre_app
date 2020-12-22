@@ -12,9 +12,8 @@ export const fetchUsername = async username => {
   // const url = `https://torre.bio/api/bios/${username}`; // site that doesn’t send Access-Control-*
 
   const response = await axios.get('/api/auth-fetch/auth-fetch');
-  console.log(response);
   if (response.status === 200) {
-    return json;
+    return response.data.msg;
   }
   throw new Error(response.status);
 };
