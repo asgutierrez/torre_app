@@ -2,7 +2,7 @@
 
 const fetch = require('node-fetch');
 
-const handler = async function (event, context, username) {
+const handler = async function (event, context) {
   if (!context.clientContext && !context.clientContext.identity) {
     return {
       statusCode: 500,
@@ -14,13 +14,13 @@ const handler = async function (event, context, username) {
   }
   const { identity, user } = context.clientContext;
   try {
-    const response = await fetch(`https://torre.bio/api/bios/${username}`);
+    const response = await fetch('https://api.chucknorris.io/jokes/random');
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
       return { statusCode: response.status, body: response.statusText };
     }
     const data = await response.json();
-
+    console.log(JSON.stringify({ identity, user, msg: data.value }));
     return {
       statusCode: 200,
       body: JSON.stringify({ identity, user, msg: data.value }),
