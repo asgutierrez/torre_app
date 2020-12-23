@@ -21,11 +21,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Todos
+### `todos`
 
-[ ] iOS app (As apollo reddit)
-[ ] Resume construction feature
+- [ ] iOS app (As apollo reddit)
+- [ ] Resume construction feature
 
-### Altercations:
+### `altercations`
 
 The only issue encountered for this project was hitting the api, the workaround for this was creating a serverless function with netlify that ask the server for the  data (proxy)
