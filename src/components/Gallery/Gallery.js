@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Fragment, useContext, useEffect, useState } from 'react';
+import { isArrayInArray } from '../../helpers/Constants';
 import { fetchJobs } from '../../helpers/Requests';
 import { UserContext } from '../../helpers/UserContext';
 import Loader from '../Loader/Loader';
@@ -146,12 +147,13 @@ export default function Gallery() {
                             className='btn btn-warning'
                             data-bs-dismiss='modal'
                             onClick={() => {
-                              if (!fav.includes(item)) {
+                              if (!isArrayInArray(fav, item)) {
                                 setFav([...fav, item]);
-                                localStorage.removeItem('favs');
+                                let sync = fav;
+                                sync.push(item);
                                 localStorage.setItem(
                                   'favs',
-                                  JSON.stringify(fav)
+                                  JSON.stringify(sync)
                                 );
                               } else {
                                 alert('Already on your favs');

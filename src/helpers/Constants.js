@@ -75,3 +75,17 @@ export const getUsefulInfo = data => {
   }
   return [[], null];
 };
+
+/**
+ *
+ * @param {*} arr
+ * @param {*} item
+ */
+export const isArrayInArray = (arr, item) => {
+  var item_as_string = JSON.stringify(item);
+
+  var contains = arr.some(function (ele) {
+    return JSON.stringify(ele) === item_as_string;
+  });
+  return contains;
+};

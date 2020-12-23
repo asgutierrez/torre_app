@@ -4,7 +4,6 @@ import './Favs.css';
 
 export default function Favs() {
   const { fav } = useContext(UserContext);
-  console.log(fav);
   return (
     <div className='container'>
       {fav.length > 0
