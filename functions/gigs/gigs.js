@@ -14,8 +14,13 @@ const handler = async function (event, context) {
   }
   const { identity, user } = context.clientContext;
   try {
-    const id = event.queryStringParameters.search;
-    const response = await fetch(`https://torre.co/api/opportunities/${id}`);
+    const offset = event.queryStringParameters.offset;
+    const response = await fetch(
+      `https://search.torre.co/opportunities/_search?offset=${offset}&size=5`,
+      {
+        method: 'POST',
+      }
+    );
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
       return { statusCode: response.status, body: response.statusText };
@@ -24,7 +29,7 @@ const handler = async function (event, context) {
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ identity, user, msg: data.value }),
+      body: JSON.stringify({ identity, user, msg: data }),
     };
   } catch (error) {
     // output to netlify function log

@@ -15,3 +15,17 @@ export const fetchUsername = async username => {
   }
   throw new Error(response.status);
 };
+
+/**
+ *
+ * @param {*} offser: Number, offset for lookup
+ *
+ * @return {object} Returns an object with the job data
+ */
+export const fetchJobs = async offset => {
+  const response = await axios.post(`/api/gigs/gigs?offset=${offset}`);
+  if (response.status === 200) {
+    return response.data.msg;
+  }
+  throw new Error(response.status);
+};

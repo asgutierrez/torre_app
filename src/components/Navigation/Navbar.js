@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
+import './Navbar.css';
+import { useContext } from 'react';
+import { UserContext } from '../../helpers/UserContext';
 
 function Navbar() {
+  const { fav, setFav } = useContext(UserContext);
+  console.log(fav);
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light fixed-top'>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
-        <Link className='navbar-brand' to='/'>
-          Torre
-        </Link>
         <button
           className='navbar-toggler'
           type='button'
@@ -22,21 +24,29 @@ function Navbar() {
           <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
             <li className='nav-item'>
               <Link className='nav-link active' aria-current='page' to='/'>
-                Home
+                <i className='fa fa-home'></i>
+                <span className='spacing'>Home</span>
               </Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link active' aria-current='page' to='/users'>
-                Users
+                <i className='fa fa-user mr-2'></i>
+                <span className='spacing'>Users</span>
               </Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link active' aria-current='page' to='/gigs'>
-                Gigs
+                <i className='fa fa-suitcase mr-5'></i>
+                <span className='spacing'>Jobs</span>
               </Link>
             </li>
           </ul>
         </div>
+        <form class='form-inline'>
+          <Link className='nav-link active' aria-current='page' to='/gigs'>
+            <i className='fa fa-shopping-cart'></i>
+          </Link>
+        </form>
       </div>
     </nav>
   );

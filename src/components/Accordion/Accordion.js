@@ -76,7 +76,6 @@ export default function Accordion({ education, jobs, projects }) {
         </summary>
         {jobs.length > 0 ? (
           jobs.map((item, key) => {
-            console.log(item);
             return (
               <p key={key}>
                 {item.name}
@@ -115,7 +114,6 @@ export default function Accordion({ education, jobs, projects }) {
         </summary>
         {projects.length > 0 ? (
           projects.map((item, key) => {
-            console.log(item);
             return (
               <p key={key}>
                 {item.name}
