@@ -8,6 +8,7 @@ import Card from '../Card/Card';
 import Location from '../Insights/Location';
 import Pie from '../Insights/Pie';
 import Radar from '../Insights/Radar';
+import Loader from '../Loader/Loader';
 import './Ripple.css';
 
 /**
@@ -140,16 +141,7 @@ export default function Users() {
           </>
         ) : change ? (
           <>
-            <motion.div
-              variants={variants}
-              initial='show'
-              animate='hidden'
-              className='lds-ripple'
-              transition={{ duration: 2 }}
-            >
-              <div></div>
-              <div></div>
-            </motion.div>
+            <Loader />
             <motion.div variants={container} initial='hidden' animate='show'>
               <h1>Not found, type a different user</h1>
             </motion.div>

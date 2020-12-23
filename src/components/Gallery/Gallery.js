@@ -1,12 +1,15 @@
-import { useEffect, useState, Fragment } from 'react';
-import { fetchJobs } from '../../helpers/Requests';
-import './Gallery.css';
-import '../Users/Ripple.css';
 import { motion } from 'framer-motion';
+import { Fragment, useContext, useEffect, useState } from 'react';
+import { fetchJobs } from '../../helpers/Requests';
+import { UserContext } from '../../helpers/UserContext';
+import Loader from '../Loader/Loader';
+import '../Users/Ripple.css';
+import './Gallery.css';
 
 export default function Gallery() {
   const [state, setState] = useState(null);
   const [offset, setOffset] = useState(0);
+  const { fav, setFav } = useContext(UserContext);
 
   useEffect(() => {
     const fetch = async () => {
@@ -138,6 +141,25 @@ export default function Gallery() {
                           >
                             Close
                           </button>
+                          <button
+                            type='button'
+                            className='btn btn-warning'
+                            data-bs-dismiss='modal'
+                            onClick={() => {
+                              if (!fav.includes(item)) {
+                                setFav([...fav, item]);
+                                localStorage.removeItem('favs');
+                                localStorage.setItem(
+                                  'favs',
+                                  JSON.stringify(fav)
+                                );
+                              } else {
+                                alert('Already on your favs');
+                              }
+                            }}
+                          >
+                            Send to favs
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -146,10 +168,7 @@ export default function Gallery() {
               );
             })
           ) : (
-            <div className='lds-ripple text-center'>
-              <div></div>
-              <div></div>
-            </div>
+            <Loader />
           )}
         </div>
       </div>

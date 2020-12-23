@@ -4,8 +4,7 @@ import { useContext } from 'react';
 import { UserContext } from '../../helpers/UserContext';
 
 function Navbar() {
-  const { fav, setFav } = useContext(UserContext);
-  console.log(fav);
+  const { fav } = useContext(UserContext);
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
@@ -42,9 +41,11 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <form class='form-inline'>
-          <Link className='nav-link active' aria-current='page' to='/gigs'>
-            <i className='fa fa-shopping-cart'></i>
+        <form className='form-inline'>
+          <Link className='nav-link active' aria-current='page' to='/favs'>
+            <i className='fa fa-eye' style={{ fontSize: '1.2em' }}>
+              <span className='spacing'>{fav.length}</span>
+            </i>
           </Link>
         </form>
       </div>
